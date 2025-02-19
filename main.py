@@ -8,7 +8,7 @@ from sklearn.metrics import mean_absolute_error
 #  Crypto Volatility Detector
 
 # Load historical crypto data from CSV
-def get_crypto_data(file_path=r"C:\Rishee javascript react\Bhumi1\Bitcoin BEP2.csv"):
+def get_crypto_data(file_path=r"C:\Rishee javascript react\Bhumi1\samplefile.csv"):
     df = pd.read_csv(file_path)
     df['Date'] = pd.to_datetime(df['Date'], format='%Y-%m-%d')
     df[['Open', 'High', 'Low', 'Close', 'Volume']] = df[['Open', 'High', 'Low', 'Close', 'Volume']].astype(float)
