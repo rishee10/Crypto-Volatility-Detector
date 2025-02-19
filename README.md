@@ -34,11 +34,33 @@ mean_absolute_error: To evaluate the accuracy of the model.
 
 #### Clone the Repository 
 
-```  ```
+``` git clone https://github.com/rishee10/Crypto-Volatility-Detector.git  ```
 
-Load the historical crypto data via the get_crypto_data function.
-Calculate volatility indicators using calculate_volatility.
-Visualize the trends with plot_volatility.
-Train the model using train_volatility_model, which predicts the next day’s volatility.
-Model Evaluation: The model’s performance is assessed with Mean Absolute Error (MAE).
-Usage: The trained model can be used to predict future volatility and provide insights into market risk.
+``` cd Crypto-Volatility-Detector ```
+
+#### Create a Virtual Environment
+
+``` python -m venv venv ```
+
+#### Activate the Virtual Environment
+
+``` .\venv\Scripts\activate ```
+
+#### Install the Required Dependencies
+
+``` pip install -r requirements.txt ```
+
+#### Run The Program
+
+``` python main.py ```
+
+#### Model Evaluation:
+
+The model’s performance is assessed with Mean Absolute Error (MAE).
+
+#### Usage: 
+
+The trained model can be used to predict future volatility and provide insights into market risk.
+ 
+
+
